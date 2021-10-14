@@ -3,7 +3,7 @@ import styles from "./App.module.scss";
 import React from "react";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import MainPage from "./pages/MainPage/mainPage";
-import TodoListPage from "./pages/TodoListPage/todoListPage";
+import TodoPage from "./pages/TodoPage/todoPage";
 function App() {
   return (
     <div className={styles.app}>
@@ -20,7 +20,7 @@ function App() {
         </nav>
         <Switch>
           <Route exact path="/" component={MainPage} />
-          <Route exact path="/todo-list" component={TodoListPage} />
+          <Route exact path="/todo-list" component={TodoPage} />
         </Switch>
       </BrowserRouter>
     </div>
