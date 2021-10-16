@@ -1,0 +1,20 @@
+.wrapperText {
+  display: flex;
+  width: 90%;
+}
+.elementListText {
+  width: 100%;
+  text-align: left;
+  margin-left: 10px;
+}
+.btnDelete {
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+.imgBtn {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
